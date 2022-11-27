@@ -1,0 +1,14 @@
+{
+    "name": "revision/php-mvc",
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "symfony/var-dumper": "^6.1"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/",
+            "Src\\": "src/"
+        }
+    }
+}
